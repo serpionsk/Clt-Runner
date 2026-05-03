@@ -50,11 +50,11 @@
     "children": [],
   },
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
     {"roomId":{"name":"rm_historia1","path":"rooms/rm_historia1/rm_historia1.yy",},},
     {"roomId":{"name":"rm_historia2","path":"rooms/rm_historia2/rm_historia2.yy",},},
     {"roomId":{"name":"rm_historia3","path":"rooms/rm_historia3/rm_historia3.yy",},},
     {"roomId":{"name":"rm_historia4","path":"rooms/rm_historia4/rm_historia4.yy",},},
+    {"roomId":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
