@@ -1,5 +1,4 @@
 
-
 if (x < 170)
 {
 	image_xscale = 2;

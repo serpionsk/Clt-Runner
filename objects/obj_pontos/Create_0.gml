@@ -1,0 +1,1 @@
+audio_play_sound(global.backsound, 1, true)
