@@ -1,11 +1,10 @@
 randomise();
 
-tempo = 4;
+tempo = choose(3, 4);
+tempo2 = 5
 
 alarm[0] = 60 * tempo;
+alarm[1] = 60 * tempo2;
 
-lado_diry = 1;
-lado_dirx = 1;
 
-lado_esqx = 40;
-lado_esqy = -25;
+

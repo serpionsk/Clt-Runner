@@ -1,0 +1,21 @@
+var _alt_global = global.speed
+var _vel_y = _alt_global;
+vspeed += _vel_y;
+
+sprite_index = choose(spr_chocolate, spr_batata, spr_coxinha, spr_hamburguer);
+
+var _fps_min = 8;
+var _fps_max = 15;
+
+var _fase_min = 4;
+var _fase_max = 9;
+
+
+// progresso da fase (0 a 1)
+var _t = (global.speed - _fase_min) / (_fase_max - _fase_min);
+_t = clamp(_t, 0, 1);
+
+// FPS desejado baseado na fase
+var _fps = lerp(_fps_min, _fps_max, _t);
+
+image_speed = _fps / sprite_get_number(sprite_index);

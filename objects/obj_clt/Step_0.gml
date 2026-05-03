@@ -1,4 +1,4 @@
-y += vel_y;
+show_debug_message(vspeed);
 
 if (x < 170)
 {
