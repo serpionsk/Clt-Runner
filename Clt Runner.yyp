@@ -4,6 +4,8 @@
   "name": "Clt Runner",
   "resources": [
     {"id":{"name":"spr_historia2","path":"sprites/spr_historia2/spr_historia2.yy",},"order":1,},
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":6,},
+    {"id":{"name":"spr_backgroundgame","path":"sprites/spr_backgroundgame/spr_backgroundgame.yy",},"order":5,},
     {"id":{"name":"rm_historia4","path":"rooms/rm_historia4/rm_historia4.yy",},"order":7,},
     {"id":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},"order":4,},
     {"id":{"name":"spr_historia1","path":"sprites/spr_historia1/spr_historia1.yy",},"order":0,},
@@ -12,6 +14,7 @@
     {"id":{"name":"spr_historia4","path":"sprites/spr_historia4/spr_historia4.yy",},"order":3,},
     {"id":{"name":"rm_historia3","path":"rooms/rm_historia3/rm_historia3.yy",},"order":6,},
     {"id":{"name":"spr_space","path":"sprites/spr_space/spr_space.yy",},"order":4,},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":1,},
     {"id":{"name":"rm_historia2","path":"rooms/rm_historia2/rm_historia2.yy",},"order":5,},
     {"id":{"name":"rm_historia1","path":"rooms/rm_historia1/rm_historia1.yy",},"order":0,},
   ],
@@ -33,11 +36,11 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
     {"roomId":{"name":"rm_historia1","path":"rooms/rm_historia1/rm_historia1.yy",},},
     {"roomId":{"name":"rm_historia2","path":"rooms/rm_historia2/rm_historia2.yy",},},
     {"roomId":{"name":"rm_historia3","path":"rooms/rm_historia3/rm_historia3.yy",},},
     {"roomId":{"name":"rm_historia4","path":"rooms/rm_historia4/rm_historia4.yy",},},
-    {"roomId":{"name":"rm_jogo","path":"rooms/rm_jogo/rm_jogo.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy","order":12,},
